@@ -31,13 +31,13 @@ const BannerComponent = () => {
         <div className="min-h-screen relative">
             <div
                 ref={boxRef}
-                className="animated-box absolute top-0 left-0 w-full min-h-screen bg-[#19191af6] z-0"
+                className="animated-box absolute top-0 left-0 w-full min-h-screen bg-[#270f1e] z-0"
             ></div>
 
             <SvgAnimation />
 
 
-            <div className="absolute top-36  left-0 min-h-screen  z-0 text-gray-400">
+            <div className="absolute top-36  left-0 min-h-screen  z-0 text-gray-100">
                 <div className="w-full mt-20 md:mt-40 pl-5 md:pl-10 lg:pl-60  p-2">
 
                     <div className=" mb-10 overflow-hidden">
@@ -49,7 +49,7 @@ const BannerComponent = () => {
                             position="y"
                         >
 
-                            <p className="uppercase text-orange-600 text-base flex flex-wrap ">
+                            <p className="uppercase text-[#e261b1] font-semibold text-base flex flex-wrap ">
                                 <span className="mr-2">W</span>
                                 <span className="mr-2">e</span>
                                 <span className="mr-2"></span>
@@ -100,7 +100,7 @@ const BannerComponent = () => {
                             position="y"
                         >
 
-                            <p >Empowering innovation with integrity <span className="text-orange-500">WebiZone it</span>  where technology meets islamic principles
+                            <p >Empowering innovation with integrity <span className="text-[#e261b1]">WebiZone it</span>  where technology meets islamic principles
                             </p>
                         </AnimatedBox>
                     </div>
@@ -117,7 +117,7 @@ const BannerComponent = () => {
                             position="y"
                         >
 
-                            <ButtonComponent text={'Get to know us'} link={'/'}/>
+                            <ButtonComponent text={'Get to know us'} link={'/'} BGColor={"bg-[#69254f]"} />
                         </AnimatedBox>
                     </div>
 

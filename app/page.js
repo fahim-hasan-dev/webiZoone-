@@ -18,8 +18,8 @@ export default function Home() {
       <About />
       <WorkingProcess />
       <CompanyStats/>
-      <Newsletter />
       <ClientReview />
+      {/* <Newsletter /> */}
     </main>
   );
 }

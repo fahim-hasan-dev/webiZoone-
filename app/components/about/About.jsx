@@ -34,7 +34,7 @@ const About = () => {
         <div className="min-h-screen  relative flex flex-col justify-center items-center lg:p-5 xl:p-0">
             <div
                 ref={boxRef}
-                className="animated-box absolute top-0 left-0 w-full min-h-screen bg-[#F84525] z-0"
+                className="animated-box absolute top-0 left-0 w-full min-h-screen bg-[#804769] z-0"
             ></div>
             <div className="max-w-screen-xl  z-10 text-white flex flex-col justify-center items-center lg:justify-normal lg:items-start">
                 <div className=" mb-10 overflow-hidden">
